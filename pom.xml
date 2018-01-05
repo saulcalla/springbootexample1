@@ -11,7 +11,7 @@
 	</parent>
  
     <groupId>eu.christophburmeister.playground</groupId>
-    <artifactId>springbootexample</artifactId>
+    <artifactId>springbootexample1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>example project for springboot</description>
  
