@@ -8,7 +8,7 @@ stage('build') {
         def v = version()
         currentBuild.displayName = "${env.BRANCH_NAME}-${v}-${env.BUILD_NUMBER}"
         
-        echo  "${env.BUILD_NUMBER}"
+        echo  "${env.GIT_COMMIT}"
     }
 }
 
